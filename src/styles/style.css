@@ -1,0 +1,75 @@
+/* frontend/src/styles.css */
+
+/* Ensure the body and html fill the viewport and center content */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #25513a; /* Optional: background color */
+}
+
+/* Centered container */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Banner styling */
+.banner {
+  background-color: #ffeb3b;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+/* Dashboard styling */
+.dashboard {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+/* Form styling */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type='text'],
+input[type='number'] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+/* Button styling */
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: rgb(0, 136, 255);
+}
+
+
