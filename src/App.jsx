@@ -1,7 +1,7 @@
 // frontend/src/App.jsx
 
 import React, { useState, useEffect } from 'react';
-import Banner from './components/Banner';
+import Banner from './components/banner';
 import Dashboard from './components/dashboard';
 import axios from 'axios';
 
