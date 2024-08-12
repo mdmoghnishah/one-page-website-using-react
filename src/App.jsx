@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Banner from './components/Banner';
-import Dashboard from './components/Dashboard';
+import Dashboard from './components/dashboard';
 import axios from 'axios';
 
 function App() {
